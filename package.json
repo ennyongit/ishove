@@ -1,0 +1,29 @@
+{
+  "name": "ishove",
+  "version": "1.0.0",
+  "description": "ishove web app UI",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ennyongit/ishove.git"
+  },
+  "keywords": [
+    "react",
+    "ishove"
+  ],
+  "author": "Eni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ennyongit/ishove/issues"
+  },
+  "homepage": "https://github.com/ennyongit/ishove#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
