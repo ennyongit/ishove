@@ -18490,65 +18490,69 @@ const TopHeader = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "col-md-4",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            className: "flat-support style1",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "faq.html",
-                                        title: "",
-                                        children: "Support"
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                className: "flat-support style1",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "faq.html",
+                                            title: "",
+                                            children: "Support"
+                                        }, void 0, false, {
+                                            fileName: "src/components/header/TopHeader.js",
+                                            lineNumber: 9,
+                                            columnNumber: 10
+                                        }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 9,
+                                        lineNumber: 8,
                                         columnNumber: 10
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/components/header/TopHeader.js",
-                                    lineNumber: 8,
-                                    columnNumber: 10
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "store-location.html",
-                                        title: "",
-                                        children: "Store Locator"
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "store-location.html",
+                                            title: "",
+                                            children: "Store Locator"
+                                        }, void 0, false, {
+                                            fileName: "src/components/header/TopHeader.js",
+                                            lineNumber: 12,
+                                            columnNumber: 10
+                                        }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 12,
-                                        columnNumber: 10
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/components/header/TopHeader.js",
-                                    lineNumber: 11,
-                                    columnNumber: 9
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "order-tracking.html",
-                                        title: "",
-                                        children: "Track Your Order"
+                                        lineNumber: 11,
+                                        columnNumber: 9
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "order-tracking.html",
+                                            title: "",
+                                            children: "Track Your Order"
+                                        }, void 0, false, {
+                                            fileName: "src/components/header/TopHeader.js",
+                                            lineNumber: 15,
+                                            columnNumber: 10
+                                        }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 15,
-                                        columnNumber: 10
+                                        lineNumber: 14,
+                                        columnNumber: 9
                                     }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/components/header/TopHeader.js",
-                                    lineNumber: 14,
-                                    columnNumber: 9
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/header/TopHeader.js",
-                            lineNumber: 7,
-                            columnNumber: 9
-                        }, undefined)
-                    }, void 0, false, {
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/header/TopHeader.js",
+                                lineNumber: 7,
+                                columnNumber: 9
+                            }, undefined),
+                            " "
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/header/TopHeader.js",
                         lineNumber: 6,
                         columnNumber: 8
                     }, undefined),
+                    " ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "col-md-4"
                     }, void 0, false, {
@@ -18558,309 +18562,313 @@ const TopHeader = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "col-md-4",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            className: "flat-unstyled style2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    className: "account",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "#",
-                                            title: "",
-                                            children: [
-                                                "My Account",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "fa fa-angle-down",
-                                                    "aria-hidden": "true"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 24,
-                                                    columnNumber: 42
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 24,
-                                            columnNumber: 11
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                            className: "unstyled",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Login"
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                className: "flat-unstyled style2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        className: "account",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "#",
+                                                title: "",
+                                                children: [
+                                                    "My Account",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                        className: "fa fa-angle-down",
+                                                        "aria-hidden": "true"
                                                     }, void 0, false, {
                                                         fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 27,
+                                                        lineNumber: 24,
+                                                        columnNumber: 42
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/header/TopHeader.js",
+                                                lineNumber: 24,
+                                                columnNumber: 11
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "unstyled",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Login"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 27,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 26,
+                                                        columnNumber: 12
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "wishlist.html",
+                                                            title: "",
+                                                            children: "Wishlist"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 30,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 29,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "shop-cart.html",
+                                                            title: "",
+                                                            children: "My Cart"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 33,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 32,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "my-account.html",
+                                                            title: "",
+                                                            children: "My Account"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 36,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 35,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "shop-checkout.html",
+                                                            title: "",
+                                                            children: "Checkout"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 39,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 38,
+                                                        columnNumber: 11
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/header/TopHeader.js",
+                                                lineNumber: 25,
+                                                columnNumber: 11
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/header/TopHeader.js",
+                                        lineNumber: 23,
+                                        columnNumber: 10
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "#",
+                                                title: "",
+                                                children: [
+                                                    "USD",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                        className: "fa fa-angle-down",
+                                                        "aria-hidden": "true"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 35
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/header/TopHeader.js",
+                                                lineNumber: 44,
+                                                columnNumber: 11
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "unstyled",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Euro"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 47,
+                                                            columnNumber: 13
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 46,
+                                                        columnNumber: 12
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Dolar"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 50,
+                                                            columnNumber: 13
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 49,
                                                         columnNumber: 12
                                                     }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 26,
-                                                    columnNumber: 12
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "wishlist.html",
-                                                        title: "",
-                                                        children: "Wishlist"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/header/TopHeader.js",
+                                                lineNumber: 45,
+                                                columnNumber: 11
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/header/TopHeader.js",
+                                        lineNumber: 43,
+                                        columnNumber: 10
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "#",
+                                                title: "",
+                                                children: [
+                                                    "English",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                        className: "fa fa-angle-down",
+                                                        "aria-hidden": "true"
                                                     }, void 0, false, {
                                                         fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 30,
+                                                        lineNumber: 55,
+                                                        columnNumber: 39
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/header/TopHeader.js",
+                                                lineNumber: 55,
+                                                columnNumber: 11
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "unstyled",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Turkish"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 58,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/header/TopHeader.js",
+                                                        lineNumber: 57,
                                                         columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 29,
-                                                    columnNumber: 11
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "shop-cart.html",
-                                                        title: "",
-                                                        children: "My Cart"
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "English"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 61,
+                                                            columnNumber: 12
+                                                        }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 33,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 32,
-                                                    columnNumber: 11
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "my-account.html",
-                                                        title: "",
-                                                        children: "My Account"
+                                                        lineNumber: 60,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 64,
+                                                            columnNumber: 12
+                                                        }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 36,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 35,
-                                                    columnNumber: 11
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "shop-checkout.html",
-                                                        title: "",
-                                                        children: "Checkout"
+                                                        lineNumber: 63,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Espa\xf1ol"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 67,
+                                                            columnNumber: 12
+                                                        }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 39,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 38,
-                                                    columnNumber: 11
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 25,
-                                            columnNumber: 11
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/header/TopHeader.js",
-                                    lineNumber: 23,
-                                    columnNumber: 10
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "#",
-                                            title: "",
-                                            children: [
-                                                "USD",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "fa fa-angle-down",
-                                                    "aria-hidden": "true"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 44,
-                                                    columnNumber: 35
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 44,
-                                            columnNumber: 11
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                            className: "unstyled",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Euro"
+                                                        lineNumber: 66,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Italiano"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/header/TopHeader.js",
+                                                            lineNumber: 70,
+                                                            columnNumber: 12
+                                                        }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 47,
-                                                        columnNumber: 13
+                                                        lineNumber: 69,
+                                                        columnNumber: 11
                                                     }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 46,
-                                                    columnNumber: 12
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Dolar"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 50,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 49,
-                                                    columnNumber: 12
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 45,
-                                            columnNumber: 11
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/header/TopHeader.js",
-                                    lineNumber: 43,
-                                    columnNumber: 10
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "#",
-                                            title: "",
-                                            children: [
-                                                "English",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                    className: "fa fa-angle-down",
-                                                    "aria-hidden": "true"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 55,
-                                                    columnNumber: 39
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 55,
-                                            columnNumber: 11
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                            className: "unstyled",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Turkish"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 58,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 57,
-                                                    columnNumber: 12
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "English"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 61,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 60,
-                                                    columnNumber: 11
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 64,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 63,
-                                                    columnNumber: 11
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Espa\xf1ol"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 67,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 66,
-                                                    columnNumber: 11
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Italiano"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 70,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/header/TopHeader.js",
-                                                    lineNumber: 69,
-                                                    columnNumber: 11
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 56,
-                                            columnNumber: 11
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/header/TopHeader.js",
-                                    lineNumber: 54,
-                                    columnNumber: 10
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/header/TopHeader.js",
-                            lineNumber: 22,
-                            columnNumber: 9
-                        }, undefined)
-                    }, void 0, false, {
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/header/TopHeader.js",
+                                                lineNumber: 56,
+                                                columnNumber: 11
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/header/TopHeader.js",
+                                        lineNumber: 54,
+                                        columnNumber: 10
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/header/TopHeader.js",
+                                lineNumber: 22,
+                                columnNumber: 9
+                            }, undefined),
+                            " "
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/header/TopHeader.js",
                         lineNumber: 21,
                         columnNumber: 8
-                    }, undefined)
+                    }, undefined),
+                    " "
                 ]
             }, void 0, true, {
                 fileName: "src/components/header/TopHeader.js",

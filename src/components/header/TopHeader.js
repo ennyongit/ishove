@@ -14,10 +14,10 @@ const TopHeader = () => {
 								<li>
 									<a href="order-tracking.html" title="">Track Your Order</a>
 								</li>
-								</ul>
-							</div>
+								</ul> {/**flat-support */}
+							</div> {/**col-md-4 */}
 							<div className="col-md-4">
-							</div>
+							</div>{/**col-md-4 */}
 							<div className="col-md-4">
 								<ul className="flat-unstyled style2">
 									<li className="account">
@@ -71,11 +71,11 @@ const TopHeader = () => {
 										</li>
 										</ul>
 									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+								</ul> {/**flat-unstyled */}
+							</div> {/**col-md-4 */}
+						</div>{/**row */}
+					</div>{/**container */}
+				</div> 
     )
 }
 
