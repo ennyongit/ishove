@@ -680,7 +680,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _header = require("./src/components/header/Header");
+var _header = require("./public/src/components/header/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -706,7 +706,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/header/Header":"92FD7"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./public/src/components/header/Header":"4uXwR","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16105,7 +16105,490 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"jMk1U"}],"4uXwR":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6eef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$6eef.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6eef.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _topHeader = require("./top/TopHeader");
+var _topHeaderDefault = parcelHelpers.interopDefault(_topHeader);
+var _middleHeader = require("./middle/MiddleHeader");
+var _middleHeaderDefault = parcelHelpers.interopDefault(_middleHeader);
+var _bottomHeader = require("./bottom/BottomHeader");
+var _bottomHeaderDefault = parcelHelpers.interopDefault(_bottomHeader);
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+            id: "header",
+            className: "header",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _topHeaderDefault.default), {}, void 0, false, {
+                    fileName: "public/src/components/header/Header.js",
+                    lineNumber: 9,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _middleHeaderDefault.default), {}, void 0, false, {
+                    fileName: "public/src/components/header/Header.js",
+                    lineNumber: 10,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bottomHeaderDefault.default), {}, void 0, false, {
+                    fileName: "public/src/components/header/Header.js",
+                    lineNumber: 11,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "public/src/components/header/Header.js",
+            lineNumber: 8,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$6eef.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./top/TopHeader":"babDH","./middle/MiddleHeader":"i1Tsa","./bottom/BottomHeader":"6BeXR","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"babDH":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$31cf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$31cf.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$31cf.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const TopHeader = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header-top style4",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "col-md-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                className: "flat-support style1",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "faq.html",
+                                            title: "",
+                                            children: "Support"
+                                        }, void 0, false, {
+                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                            lineNumber: 9,
+                                            columnNumber: 10
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                        lineNumber: 8,
+                                        columnNumber: 10
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "store-location.html",
+                                            title: "",
+                                            children: "Store Locator"
+                                        }, void 0, false, {
+                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                            lineNumber: 12,
+                                            columnNumber: 10
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                        lineNumber: 11,
+                                        columnNumber: 9
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "order-tracking.html",
+                                            title: "",
+                                            children: "Track Your Order"
+                                        }, void 0, false, {
+                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                            lineNumber: 15,
+                                            columnNumber: 10
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                        lineNumber: 14,
+                                        columnNumber: 9
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "public/src/components/header/top/TopHeader.js",
+                                lineNumber: 7,
+                                columnNumber: 9
+                            }, undefined),
+                            " "
+                        ]
+                    }, void 0, true, {
+                        fileName: "public/src/components/header/top/TopHeader.js",
+                        lineNumber: 6,
+                        columnNumber: 8
+                    }, undefined),
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "col-md-4"
+                    }, void 0, false, {
+                        fileName: "public/src/components/header/top/TopHeader.js",
+                        lineNumber: 19,
+                        columnNumber: 8
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "col-md-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                className: "flat-unstyled style2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        className: "account",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "#",
+                                                title: "",
+                                                children: [
+                                                    "My Account",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                        className: "fa fa-angle-down",
+                                                        "aria-hidden": "true"
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 24,
+                                                        columnNumber: 42
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "public/src/components/header/top/TopHeader.js",
+                                                lineNumber: 24,
+                                                columnNumber: 11
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "unstyled",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Login"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 27,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 26,
+                                                        columnNumber: 12
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "wishlist.html",
+                                                            title: "",
+                                                            children: "Wishlist"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 30,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 29,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "shop-cart.html",
+                                                            title: "",
+                                                            children: "My Cart"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 33,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 32,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "my-account.html",
+                                                            title: "",
+                                                            children: "My Account"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 36,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 35,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "shop-checkout.html",
+                                                            title: "",
+                                                            children: "Checkout"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 39,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 38,
+                                                        columnNumber: 11
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "public/src/components/header/top/TopHeader.js",
+                                                lineNumber: 25,
+                                                columnNumber: 11
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                        lineNumber: 23,
+                                        columnNumber: 10
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "#",
+                                                title: "",
+                                                children: [
+                                                    "USD",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                        className: "fa fa-angle-down",
+                                                        "aria-hidden": "true"
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 35
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "public/src/components/header/top/TopHeader.js",
+                                                lineNumber: 44,
+                                                columnNumber: 11
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "unstyled",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Euro"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 47,
+                                                            columnNumber: 13
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 46,
+                                                        columnNumber: 12
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Dolar"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 50,
+                                                            columnNumber: 13
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 49,
+                                                        columnNumber: 12
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "public/src/components/header/top/TopHeader.js",
+                                                lineNumber: 45,
+                                                columnNumber: 11
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                        lineNumber: 43,
+                                        columnNumber: 10
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "#",
+                                                title: "",
+                                                children: [
+                                                    "English",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                        className: "fa fa-angle-down",
+                                                        "aria-hidden": "true"
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 55,
+                                                        columnNumber: 39
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "public/src/components/header/top/TopHeader.js",
+                                                lineNumber: 55,
+                                                columnNumber: 11
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "unstyled",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Turkish"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 58,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 57,
+                                                        columnNumber: 12
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "English"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 61,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 60,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 64,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 63,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Espa\xf1ol"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 67,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 66,
+                                                        columnNumber: 11
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            title: "",
+                                                            children: "Italiano"
+                                                        }, void 0, false, {
+                                                            fileName: "public/src/components/header/top/TopHeader.js",
+                                                            lineNumber: 70,
+                                                            columnNumber: 12
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                                        lineNumber: 69,
+                                                        columnNumber: 11
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "public/src/components/header/top/TopHeader.js",
+                                                lineNumber: 56,
+                                                columnNumber: 11
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "public/src/components/header/top/TopHeader.js",
+                                        lineNumber: 54,
+                                        columnNumber: 10
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "public/src/components/header/top/TopHeader.js",
+                                lineNumber: 22,
+                                columnNumber: 9
+                            }, undefined),
+                            " "
+                        ]
+                    }, void 0, true, {
+                        fileName: "public/src/components/header/top/TopHeader.js",
+                        lineNumber: 21,
+                        columnNumber: 8
+                    }, undefined),
+                    " "
+                ]
+            }, void 0, true, {
+                fileName: "public/src/components/header/top/TopHeader.js",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined)
+        }, void 0, false, {
+            fileName: "public/src/components/header/top/TopHeader.js",
+            lineNumber: 4,
+            columnNumber: 6
+        }, undefined)
+    }, void 0, false, {
+        fileName: "public/src/components/header/top/TopHeader.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, undefined);
+};
+_c = TopHeader;
+exports.default = TopHeader;
+var _c;
+$RefreshReg$(_c, "TopHeader");
+
+  $parcel$ReactRefreshHelpers$31cf.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18413,495 +18896,12 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"92FD7":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$dce1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$dce1.init();
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"i1Tsa":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$e772 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$e772.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$dce1.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _topHeader = require("./TopHeader");
-var _topHeaderDefault = parcelHelpers.interopDefault(_topHeader);
-var _middleHeader = require("./MiddleHeader");
-var _middleHeaderDefault = parcelHelpers.interopDefault(_middleHeader);
-var _bottomHeader = require("./BottomHeader");
-var _bottomHeaderDefault = parcelHelpers.interopDefault(_bottomHeader);
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-            id: "header",
-            className: "header",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _topHeaderDefault.default), {}, void 0, false, {
-                    fileName: "src/components/header/Header.js",
-                    lineNumber: 9,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _middleHeaderDefault.default), {}, void 0, false, {
-                    fileName: "src/components/header/Header.js",
-                    lineNumber: 10,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bottomHeaderDefault.default), {}, void 0, false, {
-                    fileName: "src/components/header/Header.js",
-                    lineNumber: 11,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/header/Header.js",
-            lineNumber: 8,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false);
-};
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$dce1.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","./TopHeader":"4h2sA","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./MiddleHeader":"5UCJz","./BottomHeader":"7dJ7B"}],"4h2sA":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$0090 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$0090.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0090.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const TopHeader = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header-top style4",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "row",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-md-4",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                className: "flat-support style1",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "faq.html",
-                                            title: "",
-                                            children: "Support"
-                                        }, void 0, false, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 9,
-                                            columnNumber: 10
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 8,
-                                        columnNumber: 10
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "store-location.html",
-                                            title: "",
-                                            children: "Store Locator"
-                                        }, void 0, false, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 12,
-                                            columnNumber: 10
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 11,
-                                        columnNumber: 9
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "order-tracking.html",
-                                            title: "",
-                                            children: "Track Your Order"
-                                        }, void 0, false, {
-                                            fileName: "src/components/header/TopHeader.js",
-                                            lineNumber: 15,
-                                            columnNumber: 10
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 14,
-                                        columnNumber: 9
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/header/TopHeader.js",
-                                lineNumber: 7,
-                                columnNumber: 9
-                            }, undefined),
-                            " "
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/header/TopHeader.js",
-                        lineNumber: 6,
-                        columnNumber: 8
-                    }, undefined),
-                    " ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-md-4"
-                    }, void 0, false, {
-                        fileName: "src/components/header/TopHeader.js",
-                        lineNumber: 19,
-                        columnNumber: 8
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-md-4",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                className: "flat-unstyled style2",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "account",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                href: "#",
-                                                title: "",
-                                                children: [
-                                                    "My Account",
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                        className: "fa fa-angle-down",
-                                                        "aria-hidden": "true"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 24,
-                                                        columnNumber: 42
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/TopHeader.js",
-                                                lineNumber: 24,
-                                                columnNumber: 11
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                className: "unstyled",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "Login"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 27,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 26,
-                                                        columnNumber: 12
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "wishlist.html",
-                                                            title: "",
-                                                            children: "Wishlist"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 30,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 29,
-                                                        columnNumber: 11
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "shop-cart.html",
-                                                            title: "",
-                                                            children: "My Cart"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 33,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 32,
-                                                        columnNumber: 11
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "my-account.html",
-                                                            title: "",
-                                                            children: "My Account"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 36,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 35,
-                                                        columnNumber: 11
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "shop-checkout.html",
-                                                            title: "",
-                                                            children: "Checkout"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 39,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 38,
-                                                        columnNumber: 11
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/TopHeader.js",
-                                                lineNumber: 25,
-                                                columnNumber: 11
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 23,
-                                        columnNumber: 10
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                href: "#",
-                                                title: "",
-                                                children: [
-                                                    "USD",
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                        className: "fa fa-angle-down",
-                                                        "aria-hidden": "true"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 44,
-                                                        columnNumber: 35
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/TopHeader.js",
-                                                lineNumber: 44,
-                                                columnNumber: 11
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                className: "unstyled",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "Euro"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 47,
-                                                            columnNumber: 13
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 46,
-                                                        columnNumber: 12
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "Dolar"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 50,
-                                                            columnNumber: 13
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 49,
-                                                        columnNumber: 12
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/TopHeader.js",
-                                                lineNumber: 45,
-                                                columnNumber: 11
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 43,
-                                        columnNumber: 10
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                href: "#",
-                                                title: "",
-                                                children: [
-                                                    "English",
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                        className: "fa fa-angle-down",
-                                                        "aria-hidden": "true"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 55,
-                                                        columnNumber: 39
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/TopHeader.js",
-                                                lineNumber: 55,
-                                                columnNumber: 11
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                className: "unstyled",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "Turkish"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 58,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 57,
-                                                        columnNumber: 12
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "English"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 61,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 60,
-                                                        columnNumber: 11
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 64,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 63,
-                                                        columnNumber: 11
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "Espa\xf1ol"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 67,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 66,
-                                                        columnNumber: 11
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            title: "",
-                                                            children: "Italiano"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/header/TopHeader.js",
-                                                            lineNumber: 70,
-                                                            columnNumber: 12
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/TopHeader.js",
-                                                        lineNumber: 69,
-                                                        columnNumber: 11
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/TopHeader.js",
-                                                lineNumber: 56,
-                                                columnNumber: 11
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/header/TopHeader.js",
-                                        lineNumber: 54,
-                                        columnNumber: 10
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/header/TopHeader.js",
-                                lineNumber: 22,
-                                columnNumber: 9
-                            }, undefined),
-                            " "
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/header/TopHeader.js",
-                        lineNumber: 21,
-                        columnNumber: 8
-                    }, undefined),
-                    " "
-                ]
-            }, void 0, true, {
-                fileName: "src/components/header/TopHeader.js",
-                lineNumber: 5,
-                columnNumber: 7
-            }, undefined)
-        }, void 0, false, {
-            fileName: "src/components/header/TopHeader.js",
-            lineNumber: 4,
-            columnNumber: 6
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/header/TopHeader.js",
-        lineNumber: 3,
-        columnNumber: 5
-    }, undefined);
-};
-_c = TopHeader;
-exports.default = TopHeader;
-var _c;
-$RefreshReg$(_c, "TopHeader");
-
-  $parcel$ReactRefreshHelpers$0090.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5UCJz":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$b0a2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$b0a2.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b0a2.prelude(module);
+$parcel$ReactRefreshHelpers$e772.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -18925,1971 +18925,33 @@ const MiddleHeader = ()=>{
                                     href: "index.html",
                                     title: "",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: "images/logos/logo.png",
+                                        src: "",
                                         alt: ""
                                     }, void 0, false, {
-                                        fileName: "src/components/header/MiddleHeader.js",
+                                        fileName: "public/src/components/header/middle/MiddleHeader.js",
                                         lineNumber: 10,
                                         columnNumber: 11
                                     }, undefined)
                                 }, void 0, false, {
-                                    fileName: "src/components/header/MiddleHeader.js",
+                                    fileName: "public/src/components/header/middle/MiddleHeader.js",
                                     lineNumber: 9,
                                     columnNumber: 10
                                 }, undefined)
                             }, void 0, false, {
-                                fileName: "src/components/header/MiddleHeader.js",
+                                fileName: "public/src/components/header/middle/MiddleHeader.js",
                                 lineNumber: 8,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "nav-wrap",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    id: "mainnav",
-                                    className: "mainnav style1",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                        className: "menu",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                className: "column-1",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Home"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 17,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 20,
-                                                                            columnNumber: 45
-                                                                        }, undefined),
-                                                                        "Home Layout 01"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 20,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 19,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v2.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 23,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 02"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 23,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 22,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v3.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 26,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 03"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 26,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 25,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v4.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 29,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 04"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 29,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 28,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v5.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 32,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 05"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 32,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 31,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v6.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 35,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 06"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 35,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 34,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v7.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 38,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 07"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 38,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 37,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v8.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 41,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 08"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 41,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 40,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v9.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 44,
-                                                                            columnNumber: 48
-                                                                        }, undefined),
-                                                                        "Home Layout 09"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 44,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 43,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "index-v10.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 47,
-                                                                            columnNumber: 49
-                                                                        }, undefined),
-                                                                        "Home Layout 10"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 47,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 46,
-                                                                columnNumber: 14
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 18,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 16,
-                                                columnNumber: 12
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                className: "column-1",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "shop.html",
-                                                        title: "",
-                                                        children: "Shop"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 52,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 55,
-                                                                            columnNumber: 44
-                                                                        }, undefined),
-                                                                        "Shop left sidebar"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 55,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 54,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop-v2.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 58,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Shop right sidebar"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 58,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 57,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop-v3.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 61,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Shop list view"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 61,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 60,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop-v4.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 64,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Shop full width"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 64,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 63,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop-v5.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 67,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Shop 03 column"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 67,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 66,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop-cart.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 70,
-                                                                            columnNumber: 49
-                                                                        }, undefined),
-                                                                        "Shop cart"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 70,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 69,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "shop-checkout.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 73,
-                                                                            columnNumber: 53
-                                                                        }, undefined),
-                                                                        "Shop checkout"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 73,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 72,
-                                                                columnNumber: 14
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 53,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 51,
-                                                columnNumber: 12
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                className: "column-1",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Features"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 78,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "#",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 81,
-                                                                            columnNumber: 36
-                                                                        }, undefined),
-                                                                        "Home Theater Systems"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 81,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 80,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "#",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 84,
-                                                                            columnNumber: 36
-                                                                        }, undefined),
-                                                                        "Receivers & Amplifiers"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 84,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 83,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "#",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 87,
-                                                                            columnNumber: 36
-                                                                        }, undefined),
-                                                                        "Speakers"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 87,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 86,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "#",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 90,
-                                                                            columnNumber: 36
-                                                                        }, undefined),
-                                                                        "CD Players & Turntables"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 90,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 89,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "#",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 93,
-                                                                            columnNumber: 36
-                                                                        }, undefined),
-                                                                        "High-Resolution Audio"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 93,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 92,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "#",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 96,
-                                                                            columnNumber: 36
-                                                                        }, undefined),
-                                                                        "4K Ultra HD TVs"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 96,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 95,
-                                                                columnNumber: 14
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 79,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 77,
-                                                columnNumber: 12
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Electronic"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 101,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "row",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "col-md-3",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                                                className: "cat-title",
-                                                                                children: "Accessories"
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 105,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Electronics"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 108,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 107,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Furniture"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 111,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 110,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Accessories"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 114,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 113,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Divided"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 117,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 116,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Everyday Fashion"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 120,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 119,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Modern classNameic"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 123,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 122,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Party"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 126,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 125,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 106,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                                className: "show",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    title: "",
-                                                                                    children: "Shop All"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                                    lineNumber: 130,
-                                                                                    columnNumber: 17
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 129,
-                                                                                columnNumber: 16
-                                                                            }, undefined)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                        lineNumber: 104,
-                                                                        columnNumber: 15
-                                                                    }, undefined),
-                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "col-md-3",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                                                className: "cat-title",
-                                                                                children: "Laptop And Computer"
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 134,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Networking & Internet Devices"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 137,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 136,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Laptops, Desktops & Monitors"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 140,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 139,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Hard Drives & Memory Cards"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 143,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 142,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Printers & Ink"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 146,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 145,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Networking & Internet Devices"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 149,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 148,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Computer Accessories"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 152,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 151,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Software"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 155,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 154,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 135,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                                className: "show",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    title: "",
-                                                                                    children: "Shop All"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                                    lineNumber: 159,
-                                                                                    columnNumber: 17
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 158,
-                                                                                columnNumber: 16
-                                                                            }, undefined)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                        lineNumber: 133,
-                                                                        columnNumber: 15
-                                                                    }, undefined),
-                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "col-md-4",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                                                className: "cat-title",
-                                                                                children: "Audio & Video"
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 163,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Headphones & Speakers"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 166,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 165,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Home Entertainment Systems"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 169,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 168,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "MP3 & Media Players"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 172,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 171,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 164,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                                className: "show",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    title: "",
-                                                                                    children: "Shop All"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                                    lineNumber: 176,
-                                                                                    columnNumber: 17
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 175,
-                                                                                columnNumber: 16
-                                                                            }, undefined)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                        lineNumber: 162,
-                                                                        columnNumber: 15
-                                                                    }, undefined),
-                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "col-md-2",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                                                className: "cat-title",
-                                                                                children: "Home Audio"
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 180,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Home Theater Systems"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 183,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 182,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Receivers & Amplifiers"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 186,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 185,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "Speakers"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 189,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 188,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "CD Players & Turntables"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 192,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 191,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "High-Resolution Audio"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 195,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 194,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined),
-                                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                            href: "#",
-                                                                                            title: "",
-                                                                                            children: "4K Ultra HD TVs"
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                                            lineNumber: 198,
-                                                                                            columnNumber: 18
-                                                                                        }, undefined)
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 197,
-                                                                                        columnNumber: 17
-                                                                                    }, undefined)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 181,
-                                                                                columnNumber: 16
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                                className: "show",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    title: "",
-                                                                                    children: "Shop All"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                                    lineNumber: 202,
-                                                                                    columnNumber: 17
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 201,
-                                                                                columnNumber: 16
-                                                                            }, undefined)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                        lineNumber: 179,
-                                                                        columnNumber: 15
-                                                                    }, undefined)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 103,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "row",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "col-md-6",
-                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                            className: "banner-box",
-                                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                                className: "inner-box",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    title: "",
-                                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                                                        src: "images/banner_boxes/submenu-01.png",
-                                                                                        alt: ""
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 211,
-                                                                                        columnNumber: 19
-                                                                                    }, undefined)
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                                    lineNumber: 210,
-                                                                                    columnNumber: 18
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 209,
-                                                                                columnNumber: 17
-                                                                            }, undefined)
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 208,
-                                                                            columnNumber: 16
-                                                                        }, undefined)
-                                                                    }, void 0, false, {
-                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                        lineNumber: 207,
-                                                                        columnNumber: 15
-                                                                    }, undefined),
-                                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "col-md-6",
-                                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                            className: "banner-box",
-                                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                                className: "inner-box",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    title: "",
-                                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                                                        src: "images/banner_boxes/submenu-02.png",
-                                                                                        alt: ""
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                                        lineNumber: 220,
-                                                                                        columnNumber: 19
-                                                                                    }, undefined)
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                                    lineNumber: 219,
-                                                                                    columnNumber: 18
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                                lineNumber: 218,
-                                                                                columnNumber: 17
-                                                                            }, undefined)
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 217,
-                                                                            columnNumber: 16
-                                                                        }, undefined)
-                                                                    }, void 0, false, {
-                                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                                        lineNumber: 216,
-                                                                        columnNumber: 15
-                                                                    }, undefined)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 206,
-                                                                columnNumber: 14
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 102,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 100,
-                                                columnNumber: 12
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                className: "column-1",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "#",
-                                                        title: "",
-                                                        children: "Pages"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 229,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "about.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 232,
-                                                                            columnNumber: 45
-                                                                        }, undefined),
-                                                                        "About"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 232,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 231,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "404.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 235,
-                                                                            columnNumber: 43
-                                                                        }, undefined),
-                                                                        "404 Page"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 235,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 234,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "brands.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 238,
-                                                                            columnNumber: 46
-                                                                        }, undefined),
-                                                                        "Brands Page"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 238,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 237,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "categories.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 241,
-                                                                            columnNumber: 50
-                                                                        }, undefined),
-                                                                        "Categories 01"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 241,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 240,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "categories-v2.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 244,
-                                                                            columnNumber: 53
-                                                                        }, undefined),
-                                                                        "Categories 02"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 244,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 243,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "element.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 247,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Element"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 247,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 246,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "faq.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 250,
-                                                                            columnNumber: 43
-                                                                        }, undefined),
-                                                                        "FAQ"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 250,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 249,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "order-tracking.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 253,
-                                                                            columnNumber: 54
-                                                                        }, undefined),
-                                                                        "Order Tracking"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 253,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 252,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "term-condition.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 256,
-                                                                            columnNumber: 53
-                                                                        }, undefined),
-                                                                        "Terms & Conditions"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 256,
-                                                                    columnNumber: 14
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 255,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "single-product.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 259,
-                                                                            columnNumber: 53
-                                                                        }, undefined),
-                                                                        "Single Product 01"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 259,
-                                                                    columnNumber: 14
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 258,
-                                                                columnNumber: 13
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "single-product-v2.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 262,
-                                                                            columnNumber: 56
-                                                                        }, undefined),
-                                                                        "Single Product 02"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 262,
-                                                                    columnNumber: 14
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 261,
-                                                                columnNumber: 13
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "single-product-v3.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 265,
-                                                                            columnNumber: 56
-                                                                        }, undefined),
-                                                                        "Single Product 03"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 265,
-                                                                    columnNumber: 14
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 264,
-                                                                columnNumber: 13
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "single-product-v4.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 268,
-                                                                            columnNumber: 56
-                                                                        }, undefined),
-                                                                        "Single Product 04"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 268,
-                                                                    columnNumber: 14
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 267,
-                                                                columnNumber: 13
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "single-product-v5.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 271,
-                                                                            columnNumber: 56
-                                                                        }, undefined),
-                                                                        "Single Product 05"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 271,
-                                                                    columnNumber: 14
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 270,
-                                                                columnNumber: 13
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 230,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 228,
-                                                columnNumber: 12
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                className: "column-1",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "blog.html",
-                                                        title: "",
-                                                        children: "Blog"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 276,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "blog.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 279,
-                                                                            columnNumber: 44
-                                                                        }, undefined),
-                                                                        "Blog left sidebar"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 279,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 278,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "blog-v2.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 282,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Blog right sidebar"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 282,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 281,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "blog-v3.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 285,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Blog list"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 285,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 284,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "blog-v4.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 288,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Blog 02 column"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 288,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 287,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "blog-v5.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 291,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Blog full width"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 291,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 290,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "blog-single.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 294,
-                                                                            columnNumber: 51
-                                                                        }, undefined),
-                                                                        "Blog single"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 294,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 293,
-                                                                columnNumber: 14
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 277,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 275,
-                                                columnNumber: 12
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                className: "column-1",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "contact.html",
-                                                        title: "",
-                                                        children: "Contact"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 299,
-                                                        columnNumber: 13
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                        className: "submenu",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "contact.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 302,
-                                                                            columnNumber: 47
-                                                                        }, undefined),
-                                                                        "Contact 01"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 302,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 301,
-                                                                columnNumber: 14
-                                                            }, undefined),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                    href: "contact-v2.html",
-                                                                    title: "",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                                            className: "fa fa-angle-right",
-                                                                            "aria-hidden": "true"
-                                                                        }, void 0, false, {
-                                                                            fileName: "src/components/header/MiddleHeader.js",
-                                                                            lineNumber: 305,
-                                                                            columnNumber: 50
-                                                                        }, undefined),
-                                                                        "Contact 02"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "src/components/header/MiddleHeader.js",
-                                                                    lineNumber: 305,
-                                                                    columnNumber: 15
-                                                                }, undefined)
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/header/MiddleHeader.js",
-                                                                lineNumber: 304,
-                                                                columnNumber: 14
-                                                            }, undefined)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/header/MiddleHeader.js",
-                                                        lineNumber: 300,
-                                                        columnNumber: 13
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/header/MiddleHeader.js",
-                                                lineNumber: 298,
-                                                columnNumber: 12
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/header/MiddleHeader.js",
-                                        lineNumber: 15,
-                                        columnNumber: 11
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/components/header/MiddleHeader.js",
-                                    lineNumber: 14,
-                                    columnNumber: 10
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/components/header/MiddleHeader.js",
-                                lineNumber: 13,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "btn-menu style1",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
-                                    fileName: "src/components/header/MiddleHeader.js",
-                                    lineNumber: 313,
+                                    fileName: "public/src/components/header/middle/MiddleHeader.js",
+                                    lineNumber: 15,
                                     columnNumber: 31
                                 }, undefined)
                             }, void 0, false, {
-                                fileName: "src/components/header/MiddleHeader.js",
-                                lineNumber: 312,
+                                fileName: "public/src/components/header/middle/MiddleHeader.js",
+                                lineNumber: 14,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -20898,11 +18960,10 @@ const MiddleHeader = ()=>{
                                     className: "phone",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            src: "images/icons/call-3.png",
                                             alt: ""
                                         }, void 0, false, {
-                                            fileName: "src/components/header/MiddleHeader.js",
-                                            lineNumber: 317,
+                                            fileName: "public/src/components/header/middle/MiddleHeader.js",
+                                            lineNumber: 19,
                                             columnNumber: 11
                                         }, undefined),
                                         "Call Us: ",
@@ -20911,39 +18972,39 @@ const MiddleHeader = ()=>{
                                             title: "",
                                             children: "(888) 1234 56789"
                                         }, void 0, false, {
-                                            fileName: "src/components/header/MiddleHeader.js",
-                                            lineNumber: 318,
+                                            fileName: "public/src/components/header/middle/MiddleHeader.js",
+                                            lineNumber: 20,
                                             columnNumber: 20
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "src/components/header/MiddleHeader.js",
-                                    lineNumber: 316,
+                                    fileName: "public/src/components/header/middle/MiddleHeader.js",
+                                    lineNumber: 18,
                                     columnNumber: 10
                                 }, undefined)
                             }, void 0, false, {
-                                fileName: "src/components/header/MiddleHeader.js",
-                                lineNumber: 315,
+                                fileName: "public/src/components/header/middle/MiddleHeader.js",
+                                lineNumber: 17,
                                 columnNumber: 9
                             }, undefined)
                         ]
                     }, void 0, true, {
-                        fileName: "src/components/header/MiddleHeader.js",
+                        fileName: "public/src/components/header/middle/MiddleHeader.js",
                         lineNumber: 7,
                         columnNumber: 8
                     }, undefined)
                 }, void 0, false, {
-                    fileName: "src/components/header/MiddleHeader.js",
+                    fileName: "public/src/components/header/middle/MiddleHeader.js",
                     lineNumber: 6,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/components/header/MiddleHeader.js",
+                fileName: "public/src/components/header/middle/MiddleHeader.js",
                 lineNumber: 5,
                 columnNumber: 6
             }, undefined)
         }, void 0, false, {
-            fileName: "src/components/header/MiddleHeader.js",
+            fileName: "public/src/components/header/middle/MiddleHeader.js",
             lineNumber: 4,
             columnNumber: 5
         }, undefined)
@@ -20954,17 +19015,17 @@ exports.default = MiddleHeader;
 var _c;
 $RefreshReg$(_c, "MiddleHeader");
 
-  $parcel$ReactRefreshHelpers$b0a2.postlude(module);
+  $parcel$ReactRefreshHelpers$e772.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7dJ7B":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$b35f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$b35f.init();
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6BeXR":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$84dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$84dc.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b35f.prelude(module);
+$parcel$ReactRefreshHelpers$84dc.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -20989,14 +19050,14 @@ const BottomHeader = ()=>{
                                         className: "btn-mega",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 9,
                                                 columnNumber: 36
                                             }, undefined),
                                             "ALL CATEGORIES"
                                         ]
                                     }, void 0, true, {
-                                        fileName: "src/components/header/BottomHeader.js",
+                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                         lineNumber: 9,
                                         columnNumber: 10
                                     }, undefined),
@@ -21016,12 +19077,12 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/menu/01.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 14,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 13,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -21029,13 +19090,13 @@ const BottomHeader = ()=>{
                                                                 className: "menu-title",
                                                                 children: "Laptops & Mac"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 16,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 12,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -21049,7 +19110,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Laptop And Computer"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 22,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21061,12 +19122,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 27,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 26,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21076,12 +19137,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Laptops, Desktops & Monitors"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 30,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 29,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21091,12 +19152,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Hard Drives & Memory Cards"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 33,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 32,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21106,12 +19167,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Printers & Ink"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 36,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 35,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21121,12 +19182,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 39,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 38,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21136,12 +19197,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Computer Accessories"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 42,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 41,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21151,18 +19212,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Software"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 45,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 44,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 25,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21173,18 +19234,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 49,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 48,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 21,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -21195,7 +19256,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Audio & Video"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 53,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21207,12 +19268,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Headphones & Speakers"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 58,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 57,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21222,12 +19283,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Home Entertainment Systems"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 61,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 60,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21237,18 +19298,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "MP3 & Media Players"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 64,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 63,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 56,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21259,18 +19320,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 68,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 67,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 52,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -21288,7 +19349,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Headphones"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 75,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -21303,24 +19364,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 79,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 79,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 78,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 74,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -21330,25 +19391,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-01.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 83,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 82,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 85,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 73,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -21361,7 +19422,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "TV & Audio"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 89,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -21376,24 +19437,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 93,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 93,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 92,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 88,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -21403,25 +19464,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-02.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 97,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 96,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 99,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 87,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -21434,7 +19495,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Computers"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 103,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -21449,24 +19510,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 107,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 107,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 106,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 102,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -21476,48 +19537,48 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-03.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 111,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 110,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 113,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 101,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 72,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 71,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 20,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 11,
                                                 columnNumber: 11
                                             }, undefined),
@@ -21534,12 +19595,12 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/menu/02.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 122,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 121,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -21547,13 +19608,13 @@ const BottomHeader = ()=>{
                                                                 className: "menu-title",
                                                                 children: "Mobile & Tablet"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 124,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 120,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -21567,7 +19628,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Laptop And Computer"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 130,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21579,12 +19640,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 135,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 134,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21594,12 +19655,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Laptops, Desktops & Monitors"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 138,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 137,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21609,12 +19670,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Hard Drives & Memory Cards"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 141,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 140,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21624,12 +19685,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Printers & Ink"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 144,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 143,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21639,12 +19700,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 147,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 146,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21654,12 +19715,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Computer Accessories"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 150,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 149,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21669,18 +19730,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Software"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 153,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 152,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 133,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21691,18 +19752,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 157,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 156,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 129,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -21713,7 +19774,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Audio & Video"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 161,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21725,12 +19786,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Headphones & Speakers"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 166,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 165,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21740,12 +19801,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Home Entertainment Systems"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 169,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 168,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -21755,18 +19816,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "MP3 & Media Players"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 172,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 171,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 164,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -21777,18 +19838,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 176,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 175,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 160,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -21806,7 +19867,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Headphones"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 183,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -21821,24 +19882,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 187,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 187,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 186,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 182,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -21848,25 +19909,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-01.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 191,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 190,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 193,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 181,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -21879,7 +19940,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "TV & Audio"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 197,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -21894,24 +19955,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 201,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 201,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 200,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 196,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -21921,25 +19982,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-02.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 205,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 204,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 207,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 195,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -21952,7 +20013,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Computers"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 211,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -21967,24 +20028,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 215,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 215,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 214,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 210,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -21994,48 +20055,48 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-03.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 219,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 218,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 221,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 209,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 180,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 179,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 128,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 119,
                                                 columnNumber: 11
                                             }, undefined),
@@ -22052,12 +20113,12 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/menu/03.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 230,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 229,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -22065,13 +20126,13 @@ const BottomHeader = ()=>{
                                                                 className: "menu-title",
                                                                 children: "Home Devices"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 232,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 228,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -22085,7 +20146,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Laptop And Computer"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 238,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22097,12 +20158,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 243,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 242,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22112,12 +20173,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Laptops, Desktops & Monitors"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 246,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 245,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22127,12 +20188,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Hard Drives & Memory Cards"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 249,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 248,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22142,12 +20203,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Printers & Ink"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 252,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 251,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22157,12 +20218,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 255,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 254,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22172,12 +20233,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Computer Accessories"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 258,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 257,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22187,18 +20248,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Software"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 261,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 260,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 241,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22209,18 +20270,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 265,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 264,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 237,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -22231,7 +20292,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Audio & Video"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 269,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22243,12 +20304,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Headphones & Speakers"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 274,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 273,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22258,12 +20319,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Home Entertainment Systems"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 277,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 276,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22273,18 +20334,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "MP3 & Media Players"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 280,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 279,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 272,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22295,18 +20356,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 284,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 283,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 268,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -22324,7 +20385,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Headphones"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 291,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -22339,24 +20400,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 295,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 295,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 294,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 290,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -22366,25 +20427,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-01.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 299,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 298,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 301,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 289,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -22397,7 +20458,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "TV & Audio"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 305,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -22412,24 +20473,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 309,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 309,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 308,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 304,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -22439,25 +20500,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-02.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 313,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 312,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 315,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 303,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -22470,7 +20531,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Computers"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 319,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -22485,24 +20546,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 323,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 323,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 322,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 318,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -22512,48 +20573,48 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-03.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 327,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 326,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 329,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 317,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 288,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 287,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 236,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 227,
                                                 columnNumber: 11
                                             }, undefined),
@@ -22568,12 +20629,12 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/menu/04.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 338,
                                                                 columnNumber: 14
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 337,
                                                             columnNumber: 13
                                                         }, undefined),
@@ -22581,18 +20642,18 @@ const BottomHeader = ()=>{
                                                             className: "menu-title",
                                                             children: "Software"
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 340,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/components/header/BottomHeader.js",
+                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                     lineNumber: 336,
                                                     columnNumber: 12
                                                 }, undefined)
                                             }, void 0, false, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 335,
                                                 columnNumber: 11
                                             }, undefined),
@@ -22607,12 +20668,12 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/menu/05.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 348,
                                                                 columnNumber: 14
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 347,
                                                             columnNumber: 13
                                                         }, undefined),
@@ -22620,18 +20681,18 @@ const BottomHeader = ()=>{
                                                             className: "menu-title",
                                                             children: "TV & Audio"
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 350,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/components/header/BottomHeader.js",
+                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                     lineNumber: 346,
                                                     columnNumber: 12
                                                 }, undefined)
                                             }, void 0, false, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 345,
                                                 columnNumber: 11
                                             }, undefined),
@@ -22646,12 +20707,12 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/menu/06.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 358,
                                                                 columnNumber: 14
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 357,
                                                             columnNumber: 13
                                                         }, undefined),
@@ -22659,18 +20720,18 @@ const BottomHeader = ()=>{
                                                             className: "menu-title",
                                                             children: "Sports & Fitness"
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 360,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/components/header/BottomHeader.js",
+                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                     lineNumber: 356,
                                                     columnNumber: 12
                                                 }, undefined)
                                             }, void 0, false, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 355,
                                                 columnNumber: 11
                                             }, undefined),
@@ -22687,12 +20748,12 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/menu/07.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 368,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 367,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -22700,13 +20761,13 @@ const BottomHeader = ()=>{
                                                                 className: "menu-title",
                                                                 children: "Games & Toys"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 370,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 366,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -22720,7 +20781,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Laptop And Computer"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 376,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22732,12 +20793,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 381,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 380,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22747,12 +20808,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Laptops, Desktops & Monitors"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 384,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 383,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22762,12 +20823,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Hard Drives & Memory Cards"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 387,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 386,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22777,12 +20838,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Printers & Ink"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 390,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 389,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22792,12 +20853,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 393,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 392,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22807,12 +20868,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Computer Accessories"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 396,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 395,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22822,18 +20883,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Software"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 399,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 398,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 379,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22844,18 +20905,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 403,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 402,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 375,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -22866,7 +20927,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Audio & Video"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 407,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22878,12 +20939,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Headphones & Speakers"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 412,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 411,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22893,12 +20954,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Home Entertainment Systems"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 415,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 414,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -22908,18 +20969,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "MP3 & Media Players"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 418,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 417,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 410,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -22930,18 +20991,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 422,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 421,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 406,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -22959,7 +21020,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Headphones"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 429,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -22974,24 +21035,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 433,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 433,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 432,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 428,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -23001,25 +21062,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-01.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 437,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 436,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 439,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 427,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -23032,7 +21093,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "TV & Audio"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 443,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -23047,24 +21108,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 447,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 447,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 446,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 442,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -23074,25 +21135,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-02.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 451,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 450,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 453,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 441,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -23105,7 +21166,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Computers"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 457,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -23120,24 +21181,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 461,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 461,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 460,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 456,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -23147,48 +21208,48 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-03.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 465,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 464,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 467,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 455,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 426,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 425,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 374,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 365,
                                                 columnNumber: 11
                                             }, undefined),
@@ -23203,12 +21264,12 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/menu/08.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 476,
                                                                 columnNumber: 14
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 475,
                                                             columnNumber: 13
                                                         }, undefined),
@@ -23216,18 +21277,18 @@ const BottomHeader = ()=>{
                                                             className: "menu-title",
                                                             children: "Video Cameras"
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 478,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/components/header/BottomHeader.js",
+                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                     lineNumber: 474,
                                                     columnNumber: 12
                                                 }, undefined)
                                             }, void 0, false, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 473,
                                                 columnNumber: 11
                                             }, undefined),
@@ -23244,12 +21305,12 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/menu/09.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 486,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 485,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -23257,13 +21318,13 @@ const BottomHeader = ()=>{
                                                                 className: "menu-title",
                                                                 children: "Accessories"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 488,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 484,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -23277,7 +21338,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Laptop And Computer"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 494,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23289,12 +21350,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 499,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 498,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23304,12 +21365,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Laptops, Desktops & Monitors"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 502,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 501,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23319,12 +21380,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Hard Drives & Memory Cards"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 505,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 504,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23334,12 +21395,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Printers & Ink"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 508,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 507,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23349,12 +21410,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 511,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 510,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23364,12 +21425,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Computer Accessories"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 514,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 513,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23379,18 +21440,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Software"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 517,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 516,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 497,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23401,18 +21462,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 521,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 520,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 493,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -23423,7 +21484,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Audio & Video"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 525,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23435,12 +21496,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Headphones & Speakers"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 530,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 529,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23450,12 +21511,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Home Entertainment Systems"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 533,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 532,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23465,18 +21526,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "MP3 & Media Players"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 536,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 535,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 528,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23487,18 +21548,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 540,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 539,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 524,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -23516,7 +21577,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Headphones"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 547,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -23531,24 +21592,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 551,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 551,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 550,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 546,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -23558,25 +21619,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-01.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 555,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 554,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 557,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 545,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -23589,7 +21650,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "TV & Audio"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 561,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -23604,24 +21665,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 565,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 565,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 564,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 560,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -23631,25 +21692,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-02.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 569,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 568,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 571,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 559,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -23662,7 +21723,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Computers"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 575,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -23677,24 +21738,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 579,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 579,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 578,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 574,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -23704,48 +21765,48 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-03.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 583,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 582,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 585,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 573,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 544,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 543,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 492,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 483,
                                                 columnNumber: 11
                                             }, undefined),
@@ -23762,12 +21823,12 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/menu/10.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 594,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 593,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -23775,13 +21836,13 @@ const BottomHeader = ()=>{
                                                                 className: "menu-title",
                                                                 children: "Security"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 596,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 592,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -23795,7 +21856,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Laptop And Computer"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 602,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23807,12 +21868,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 607,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 606,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23822,12 +21883,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Laptops, Desktops & Monitors"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 610,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 609,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23837,12 +21898,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Hard Drives & Memory Cards"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 613,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 612,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23852,12 +21913,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Printers & Ink"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 616,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 615,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23867,12 +21928,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Networking & Internet Devices"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 619,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 618,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23882,12 +21943,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Computer Accessories"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 622,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 621,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23897,18 +21958,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Software"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 625,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 624,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 605,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23919,18 +21980,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 629,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 628,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 601,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -23941,7 +22002,7 @@ const BottomHeader = ()=>{
                                                                         className: "cat-title",
                                                                         children: "Audio & Video"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 633,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -23953,12 +22014,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Headphones & Speakers"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 638,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 637,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23968,12 +22029,12 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "Home Entertainment Systems"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 641,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 640,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -23983,18 +22044,18 @@ const BottomHeader = ()=>{
                                                                                     title: "",
                                                                                     children: "MP3 & Media Players"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 644,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 643,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 636,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -24005,18 +22066,18 @@ const BottomHeader = ()=>{
                                                                             title: "",
                                                                             children: "Shop All"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 648,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 647,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 632,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -24034,7 +22095,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Headphones"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 655,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -24049,24 +22110,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 659,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 659,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 658,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 654,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -24076,25 +22137,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-01.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 663,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 662,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 665,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 653,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -24107,7 +22168,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "TV & Audio"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 669,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -24122,24 +22183,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 673,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 673,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 672,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 668,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -24149,25 +22210,25 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-02.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 677,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 676,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 679,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 667,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -24180,7 +22241,7 @@ const BottomHeader = ()=>{
                                                                                             className: "banner-title",
                                                                                             children: "Computers"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 683,
                                                                                             columnNumber: 17
                                                                                         }, undefined),
@@ -24195,24 +22256,24 @@ const BottomHeader = ()=>{
                                                                                                         src: "images/icons/right-2.png",
                                                                                                         alt: ""
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 687,
                                                                                                         columnNumber: 48
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 687,
                                                                                                 columnNumber: 18
                                                                                             }, undefined)
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 686,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 682,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -24222,65 +22283,65 @@ const BottomHeader = ()=>{
                                                                                         src: "images/banner_boxes/menu-03.png",
                                                                                         alt: ""
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 691,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 690,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                     className: "clearfix"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 693,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 681,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 652,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 651,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 600,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 591,
                                                 columnNumber: 11
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "src/components/header/BottomHeader.js",
+                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                         lineNumber: 10,
                                         columnNumber: 10
                                     }, undefined)
                                 ]
                             }, void 0, true, {
-                                fileName: "src/components/header/BottomHeader.js",
+                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                 lineNumber: 8,
                                 columnNumber: 9
                             }, undefined)
                         }, void 0, false, {
-                            fileName: "src/components/header/BottomHeader.js",
+                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                             lineNumber: 7,
                             columnNumber: 8
                         }, undefined),
@@ -24306,7 +22367,7 @@ const BottomHeader = ()=>{
                                                                 value: "",
                                                                 children: "All Category"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 707,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -24315,7 +22376,7 @@ const BottomHeader = ()=>{
                                                                 value: "",
                                                                 children: "Cameras"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 708,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -24324,7 +22385,7 @@ const BottomHeader = ()=>{
                                                                 value: "",
                                                                 children: "Computer"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 709,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -24333,13 +22394,13 @@ const BottomHeader = ()=>{
                                                                 value: "",
                                                                 children: "Laptops"
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 710,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 706,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -24348,12 +22409,12 @@ const BottomHeader = ()=>{
                                                             className: "fa fa-angle-down",
                                                             "aria-hidden": "true"
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 712,
                                                             columnNumber: 18
                                                         }, undefined)
                                                     }, void 0, false, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 712,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -24367,7 +22428,7 @@ const BottomHeader = ()=>{
                                                                         className: "title",
                                                                         children: "Electronics"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 715,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -24376,47 +22437,47 @@ const BottomHeader = ()=>{
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Components"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 719,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Laptop"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 720,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Monitor"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 721,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Mp3 player"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 722,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Scanners"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 723,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 718,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 714,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -24427,7 +22488,7 @@ const BottomHeader = ()=>{
                                                                         className: "title",
                                                                         children: "Furniture"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 727,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -24436,47 +22497,47 @@ const BottomHeader = ()=>{
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Bookcases"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 731,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Barstools"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 732,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "TV stands"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 733,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Desks"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 734,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Accent chairs"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 735,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 730,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 726,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -24487,7 +22548,7 @@ const BottomHeader = ()=>{
                                                                         className: "title",
                                                                         children: "Accessories"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 739,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -24496,59 +22557,59 @@ const BottomHeader = ()=>{
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Software"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 743,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Mobile"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 744,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "TV stands"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 745,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Printers"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 746,
                                                                                 columnNumber: 15
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                                                 children: "Media"
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 747,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 742,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 738,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 713,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 705,
                                                 columnNumber: 11
                                             }, undefined),
@@ -24560,7 +22621,7 @@ const BottomHeader = ()=>{
                                                         name: "search",
                                                         placeholder: "Search what you looking for ?"
                                                     }, void 0, false, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 753,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -24573,17 +22634,17 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/search-2.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 755,
                                                                 columnNumber: 60
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 755,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     }, void 0, false, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 754,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -24597,7 +22658,7 @@ const BottomHeader = ()=>{
                                                                         className: "title",
                                                                         children: "Search Suggestions"
                                                                     }, void 0, false, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 759,
                                                                         columnNumber: 14
                                                                     }, undefined),
@@ -24611,12 +22672,12 @@ const BottomHeader = ()=>{
                                                                                             src: "images/product/other/s05.jpg",
                                                                                             alt: ""
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 765,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 764,
                                                                                         columnNumber: 16
                                                                                     }, undefined),
@@ -24630,12 +22691,12 @@ const BottomHeader = ()=>{
                                                                                                     title: "",
                                                                                                     children: "Razer RZ02-01071500-R3M1"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 769,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 768,
                                                                                                 columnNumber: 17
                                                                                             }, undefined),
@@ -24646,7 +22707,7 @@ const BottomHeader = ()=>{
                                                                                                         className: "sale",
                                                                                                         children: "$50.00"
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 772,
                                                                                                         columnNumber: 18
                                                                                                     }, undefined),
@@ -24654,25 +22715,25 @@ const BottomHeader = ()=>{
                                                                                                         className: "regular",
                                                                                                         children: "$2,999.00"
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 775,
                                                                                                         columnNumber: 18
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 771,
                                                                                                 columnNumber: 17
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 767,
                                                                                         columnNumber: 16
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 763,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -24684,12 +22745,12 @@ const BottomHeader = ()=>{
                                                                                             src: "images/product/other/s06.jpg",
                                                                                             alt: ""
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 783,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 782,
                                                                                         columnNumber: 16
                                                                                     }, undefined),
@@ -24703,12 +22764,12 @@ const BottomHeader = ()=>{
                                                                                                     title: "",
                                                                                                     children: "Notebook Black Spire V Nitro VN7-591G"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 787,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 786,
                                                                                                 columnNumber: 17
                                                                                             }, undefined),
@@ -24718,24 +22779,24 @@ const BottomHeader = ()=>{
                                                                                                     className: "sale",
                                                                                                     children: "$24.00"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 790,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 789,
                                                                                                 columnNumber: 17
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 785,
                                                                                         columnNumber: 16
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 781,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -24747,12 +22808,12 @@ const BottomHeader = ()=>{
                                                                                             src: "images/product/other/14.jpg",
                                                                                             alt: ""
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 798,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 797,
                                                                                         columnNumber: 16
                                                                                     }, undefined),
@@ -24766,12 +22827,12 @@ const BottomHeader = ()=>{
                                                                                                     title: "",
                                                                                                     children: "Apple iPad Mini G2356"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 802,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 801,
                                                                                                 columnNumber: 17
                                                                                             }, undefined),
@@ -24781,24 +22842,24 @@ const BottomHeader = ()=>{
                                                                                                     className: "sale",
                                                                                                     children: "$90.00"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 805,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 804,
                                                                                                 columnNumber: 17
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 800,
                                                                                         columnNumber: 16
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 796,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -24810,12 +22871,12 @@ const BottomHeader = ()=>{
                                                                                             src: "images/product/other/02.jpg",
                                                                                             alt: ""
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 813,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 812,
                                                                                         columnNumber: 16
                                                                                     }, undefined),
@@ -24829,12 +22890,12 @@ const BottomHeader = ()=>{
                                                                                                     title: "",
                                                                                                     children: "Razer RZ02-01071500-R3M1"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 817,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 816,
                                                                                                 columnNumber: 17
                                                                                             }, undefined),
@@ -24844,24 +22905,24 @@ const BottomHeader = ()=>{
                                                                                                     className: "sale",
                                                                                                     children: "$50.00"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 820,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 819,
                                                                                                 columnNumber: 17
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 815,
                                                                                         columnNumber: 16
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 811,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -24873,12 +22934,12 @@ const BottomHeader = ()=>{
                                                                                             src: "images/product/other/l01.jpg",
                                                                                             alt: ""
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 828,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 827,
                                                                                         columnNumber: 16
                                                                                     }, undefined),
@@ -24892,12 +22953,12 @@ const BottomHeader = ()=>{
                                                                                                     title: "",
                                                                                                     children: "Apple iPad Mini G2356"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 832,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 831,
                                                                                                 columnNumber: 17
                                                                                             }, undefined),
@@ -24908,7 +22969,7 @@ const BottomHeader = ()=>{
                                                                                                         className: "sale",
                                                                                                         children: "$24.00"
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 835,
                                                                                                         columnNumber: 18
                                                                                                     }, undefined),
@@ -24916,25 +22977,25 @@ const BottomHeader = ()=>{
                                                                                                         className: "regular",
                                                                                                         children: "$2,999.00"
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 838,
                                                                                                         columnNumber: 18
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 834,
                                                                                                 columnNumber: 17
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 830,
                                                                                         columnNumber: 16
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 826,
                                                                                 columnNumber: 15
                                                                             }, undefined),
@@ -24946,12 +23007,12 @@ const BottomHeader = ()=>{
                                                                                             src: "images/product/other/s08.jpg",
                                                                                             alt: ""
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 846,
                                                                                             columnNumber: 17
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 845,
                                                                                         columnNumber: 16
                                                                                     }, undefined),
@@ -24965,12 +23026,12 @@ const BottomHeader = ()=>{
                                                                                                     title: "",
                                                                                                     children: "Beats Snarkitecture Headphones"
                                                                                                 }, void 0, false, {
-                                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                     lineNumber: 850,
                                                                                                     columnNumber: 18
                                                                                                 }, undefined)
                                                                                             }, void 0, false, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 849,
                                                                                                 columnNumber: 17
                                                                                             }, undefined),
@@ -24981,7 +23042,7 @@ const BottomHeader = ()=>{
                                                                                                         className: "sale",
                                                                                                         children: "$90.00"
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 853,
                                                                                                         columnNumber: 18
                                                                                                     }, undefined),
@@ -24989,37 +23050,37 @@ const BottomHeader = ()=>{
                                                                                                         className: "regular",
                                                                                                         children: "$2,999.00"
                                                                                                     }, void 0, false, {
-                                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                         lineNumber: 856,
                                                                                                         columnNumber: 18
                                                                                                     }, undefined)
                                                                                                 ]
                                                                                             }, void 0, true, {
-                                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                                 lineNumber: 852,
                                                                                                 columnNumber: 17
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 848,
                                                                                         columnNumber: 16
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 844,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                         lineNumber: 762,
                                                                         columnNumber: 14
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 758,
                                                                 columnNumber: 13
                                                             }, undefined),
@@ -25032,7 +23093,7 @@ const BottomHeader = ()=>{
                                                                             className: "title",
                                                                             children: "Categories"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 866,
                                                                             columnNumber: 15
                                                                         }, undefined),
@@ -25043,12 +23104,12 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Networking & Internet Devices"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 871,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 870,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -25057,12 +23118,12 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Laptops, Desktops & Monitors"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 874,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 873,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -25071,12 +23132,12 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Hard Drives & Memory Cards"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 877,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 876,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -25085,12 +23146,12 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Printers & Ink"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 880,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 879,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -25099,12 +23160,12 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Networking & Internet Devices"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 883,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 882,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -25113,12 +23174,12 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Computer Accessories"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 886,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 885,
                                                                                     columnNumber: 16
                                                                                 }, undefined),
@@ -25127,64 +23188,64 @@ const BottomHeader = ()=>{
                                                                                         href: "#",
                                                                                         children: "Software"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "src/components/header/BottomHeader.js",
+                                                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                         lineNumber: 889,
                                                                                         columnNumber: 17
                                                                                     }, undefined)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 888,
                                                                                     columnNumber: 16
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 869,
                                                                             columnNumber: 15
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 865,
                                                                     columnNumber: 14
                                                                 }, undefined)
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 864,
                                                                 columnNumber: 13
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 757,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 752,
                                                 columnNumber: 11
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "src/components/header/BottomHeader.js",
+                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                         lineNumber: 704,
                                         columnNumber: 10
                                     }, undefined)
                                 }, void 0, false, {
-                                    fileName: "src/components/header/BottomHeader.js",
+                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                     lineNumber: 703,
                                     columnNumber: 9
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                     className: "show-search",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {}, void 0, false, {
-                                        fileName: "src/components/header/BottomHeader.js",
+                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                         lineNumber: 899,
                                         columnNumber: 10
                                     }, undefined)
                                 }, void 0, false, {
-                                    fileName: "src/components/header/BottomHeader.js",
+                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                     lineNumber: 898,
                                     columnNumber: 9
                                 }, undefined),
@@ -25205,17 +23266,17 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/compare-2.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 906,
                                                                 columnNumber: 14
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 905,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     }, void 0, false, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 904,
                                                         columnNumber: 12
                                                     }, undefined),
@@ -25228,28 +23289,28 @@ const BottomHeader = ()=>{
                                                                 src: "images/icons/wishlist-2.png",
                                                                 alt: ""
                                                             }, void 0, false, {
-                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                 lineNumber: 911,
                                                                 columnNumber: 14
                                                             }, undefined)
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 910,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     }, void 0, false, {
-                                                        fileName: "src/components/header/BottomHeader.js",
+                                                        fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                         lineNumber: 909,
                                                         columnNumber: 12
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "src/components/header/BottomHeader.js",
+                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                 lineNumber: 903,
                                                 columnNumber: 11
                                             }, undefined)
                                         }, void 0, false, {
-                                            fileName: "src/components/header/BottomHeader.js",
+                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                             lineNumber: 902,
                                             columnNumber: 10
                                         }, undefined),
@@ -25267,20 +23328,20 @@ const BottomHeader = ()=>{
                                                                     src: "images/icons/add-cart.png",
                                                                     alt: ""
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 919,
                                                                     columnNumber: 13
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                     children: "4"
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 920,
                                                                     columnNumber: 13
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 918,
                                                             columnNumber: 12
                                                         }, undefined),
@@ -25288,13 +23349,13 @@ const BottomHeader = ()=>{
                                                             className: "price",
                                                             children: "$0.00"
                                                         }, void 0, false, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 922,
                                                             columnNumber: 12
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/components/header/BottomHeader.js",
+                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                     lineNumber: 917,
                                                     columnNumber: 11
                                                 }, undefined),
@@ -25311,12 +23372,12 @@ const BottomHeader = ()=>{
                                                                                 src: "images/product/other/img-cart-1.jpg",
                                                                                 alt: ""
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 930,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 929,
                                                                             columnNumber: 14
                                                                         }, undefined),
@@ -25328,14 +23389,14 @@ const BottomHeader = ()=>{
                                                                                     children: [
                                                                                         "Samsung - Galaxy S6 4G LTE ",
                                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 934,
                                                                                             columnNumber: 43
                                                                                         }, undefined),
                                                                                         "with 32GB Memory Cell Phone"
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 933,
                                                                                     columnNumber: 15
                                                                                 }, undefined),
@@ -25345,33 +23406,33 @@ const BottomHeader = ()=>{
                                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                                             children: "1 x"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 937,
                                                                                             columnNumber: 16
                                                                                         }, undefined),
                                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                                             children: "$250.00"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 938,
                                                                                             columnNumber: 16
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 936,
                                                                                     columnNumber: 15
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 932,
                                                                             columnNumber: 14
                                                                         }, undefined),
                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                             className: "clearfix"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 941,
                                                                             columnNumber: 14
                                                                         }, undefined),
@@ -25379,13 +23440,13 @@ const BottomHeader = ()=>{
                                                                             className: "delete",
                                                                             children: "x"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 942,
                                                                             columnNumber: 14
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 928,
                                                                     columnNumber: 13
                                                                 }, undefined),
@@ -25397,12 +23458,12 @@ const BottomHeader = ()=>{
                                                                                 src: "images/product/other/img-cart-2.jpg",
                                                                                 alt: ""
                                                                             }, void 0, false, {
-                                                                                fileName: "src/components/header/BottomHeader.js",
+                                                                                fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                 lineNumber: 946,
                                                                                 columnNumber: 15
                                                                             }, undefined)
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 945,
                                                                             columnNumber: 14
                                                                         }, undefined),
@@ -25413,7 +23474,7 @@ const BottomHeader = ()=>{
                                                                                     className: "name",
                                                                                     children: "Sennheiser - Over-the-Ear Headphone System - Black"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 949,
                                                                                     columnNumber: 15
                                                                                 }, undefined),
@@ -25423,33 +23484,33 @@ const BottomHeader = ()=>{
                                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                                             children: "1 x"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 953,
                                                                                             columnNumber: 16
                                                                                         }, undefined),
                                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                                             children: "$250.00"
                                                                                         }, void 0, false, {
-                                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                             lineNumber: 954,
                                                                                             columnNumber: 16
                                                                                         }, undefined)
                                                                                     ]
                                                                                 }, void 0, true, {
-                                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                                     lineNumber: 952,
                                                                                     columnNumber: 15
                                                                                 }, undefined)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 948,
                                                                             columnNumber: 14
                                                                         }, undefined),
                                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                             className: "clearfix"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 957,
                                                                             columnNumber: 14
                                                                         }, undefined),
@@ -25457,19 +23518,19 @@ const BottomHeader = ()=>{
                                                                             className: "delete",
                                                                             children: "x"
                                                                         }, void 0, false, {
-                                                                            fileName: "src/components/header/BottomHeader.js",
+                                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                             lineNumber: 958,
                                                                             columnNumber: 14
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 944,
                                                                     columnNumber: 13
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 927,
                                                             columnNumber: 12
                                                         }, undefined),
@@ -25479,7 +23540,7 @@ const BottomHeader = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                     children: "Subtotal:"
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 962,
                                                                     columnNumber: 13
                                                                 }, undefined),
@@ -25487,13 +23548,13 @@ const BottomHeader = ()=>{
                                                                     className: "price",
                                                                     children: "$1,999.00"
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 963,
                                                                     columnNumber: 13
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 961,
                                                             columnNumber: 12
                                                         }, undefined),
@@ -25506,7 +23567,7 @@ const BottomHeader = ()=>{
                                                                     title: "",
                                                                     children: "View Cart"
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 966,
                                                                     columnNumber: 13
                                                                 }, undefined),
@@ -25516,53 +23577,53 @@ const BottomHeader = ()=>{
                                                                     title: "",
                                                                     children: "Checkout"
                                                                 }, void 0, false, {
-                                                                    fileName: "src/components/header/BottomHeader.js",
+                                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                                     lineNumber: 967,
                                                                     columnNumber: 13
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "src/components/header/BottomHeader.js",
+                                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                             lineNumber: 965,
                                                             columnNumber: 12
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/components/header/BottomHeader.js",
+                                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                                     lineNumber: 926,
                                                     columnNumber: 11
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "src/components/header/BottomHeader.js",
+                                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                                             lineNumber: 916,
                                             columnNumber: 10
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "src/components/header/BottomHeader.js",
+                                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                                     lineNumber: 901,
                                     columnNumber: 9
                                 }, undefined)
                             ]
                         }, void 0, true, {
-                            fileName: "src/components/header/BottomHeader.js",
+                            fileName: "public/src/components/header/bottom/BottomHeader.js",
                             lineNumber: 702,
                             columnNumber: 8
                         }, undefined)
                     ]
                 }, void 0, true, {
-                    fileName: "src/components/header/BottomHeader.js",
+                    fileName: "public/src/components/header/bottom/BottomHeader.js",
                     lineNumber: 6,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/components/header/BottomHeader.js",
+                fileName: "public/src/components/header/bottom/BottomHeader.js",
                 lineNumber: 5,
                 columnNumber: 6
             }, undefined)
         }, void 0, false, {
-            fileName: "src/components/header/BottomHeader.js",
+            fileName: "public/src/components/header/bottom/BottomHeader.js",
             lineNumber: 4,
             columnNumber: 5
         }, undefined)
@@ -25573,7 +23634,7 @@ exports.default = BottomHeader;
 var _c;
 $RefreshReg$(_c, "BottomHeader");
 
-  $parcel$ReactRefreshHelpers$b35f.postlude(module);
+  $parcel$ReactRefreshHelpers$84dc.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;

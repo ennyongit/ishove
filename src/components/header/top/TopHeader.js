@@ -1,10 +1,11 @@
 const TopHeader = () => {
-    return (	
-				<div className="header-top style4">
+    return (
+		<>
+				<div className="header-top style3">
 					<div className="container">
 						<div className="row">
 							<div className="col-md-4">
-								<ul className="flat-support style1">
+								<ul className="flat-support">
 									<li>
 									<a href="faq.html" title="">Support</a>
 								</li>
@@ -14,12 +15,13 @@ const TopHeader = () => {
 								<li>
 									<a href="order-tracking.html" title="">Track Your Order</a>
 								</li>
-								</ul> {/**flat-support */}
-							</div> {/**col-md-4 */}
+								</ul>{/**flat-support */}
+							</div>{/**.col-md-4 */}
 							<div className="col-md-4">
-							</div>{/**col-md-4 */}
+								
+							</div>{/**.col-md-4 */}
 							<div className="col-md-4">
-								<ul className="flat-unstyled style2">
+								<ul className="flat-unstyled">
 									<li className="account">
 										<a href="#" title="">My Account<i className="fa fa-angle-down" aria-hidden="true"></i></a>
 										<ul className="unstyled">
@@ -71,11 +73,12 @@ const TopHeader = () => {
 										</li>
 										</ul>
 									</li>
-								</ul> {/**flat-unstyled */}
-							</div> {/**col-md-4 */}
+								</ul>{/**flat-unstyled */}
+							</div>{/**col-md-4 */}
 						</div>{/**row */}
 					</div>{/**container */}
-				</div> 
+				</div>{/**header-top */}
+			</>
     )
 }
 

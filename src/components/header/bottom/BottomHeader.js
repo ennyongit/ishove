@@ -1,12 +1,13 @@
 const BottomHeader = () => {
-    return (
-        <>
-				<div className="header-bottom">
+    return (   
+    <>
+					<div className="header-bottom">
 					<div className="container">
 						<div className="row">
 							<div className="col-md-3 col-2">
-								<div id="mega-menu" className="style1">
-									<div className="btn-mega"><span></span>ALL CATEGORIES</div>
+								
+							<div id="mega-menu">
+									<div className="btn-mega" style="display: block;"><span></span>ALL CATEGORIES</div>
 									<ul className="menu">
 										<li>
 											<a href="#" title="" className="dropdown">
@@ -14,29 +15,29 @@ const BottomHeader = () => {
 													<img src="images/icons/menu/01.png" alt=""/>
 												</span>
 												<span className="menu-title">
-													Laptops & Mac
+													Laptops &amp; Mac
 												</span>
-											</a>
+											<span className="btn-dropdown"></span></a>
 											<div className="drop-menu">
 												<div className="one-third">
 													<div className="cat-title">
 														Laptop And Computer
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
-															<a href="#" title="">Laptops, Desktops & Monitors</a>
+															<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 														</li>
 														<li>
-															<a href="#" title="">Hard Drives & Memory Cards</a>
+															<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 														</li>
 														<li>
-															<a href="#" title="">Printers & Ink</a>
+															<a href="#" title="">Printers &amp; Ink</a>
 														</li>
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
 															<a href="#" title="">Computer Accessories</a>
@@ -51,17 +52,17 @@ const BottomHeader = () => {
 												</div>
 												<div className="one-third">
 													<div className="cat-title">
-														Audio & Video
+														Audio &amp; Video
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Headphones & Speakers</a>
+															<a href="#" title="">Headphones &amp; Speakers</a>
 														</li>
 														<li>
 															<a href="#" title="">Home Entertainment Systems</a>
 														</li>
 														<li>
-															<a href="#" title="">MP3 & Media Players</a>
+															<a href="#" title="">MP3 &amp; Media Players</a>
 														</li>
 													</ul>
 													<div className="show">
@@ -69,7 +70,7 @@ const BottomHeader = () => {
 													</div>
 												</div>
 												<div className="one-third">
-													<ul className="banner">
+													<ul className="banner" style="display: block;">
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
@@ -87,7 +88,7 @@ const BottomHeader = () => {
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
-																	TV & Audio
+																	TV &amp; Audio
 																</div>
 																<div className="more-link">
 																	<a href="#" title="">Shop Now <img src="images/icons/right-2.png" alt=""/></a>
@@ -122,29 +123,29 @@ const BottomHeader = () => {
 													<img src="images/icons/menu/02.png" alt=""/>
 												</span>
 												<span className="menu-title">
-													Mobile & Tablet
+													Mobile &amp; Tablet
 												</span>
-											</a>
+											<span className="btn-dropdown"></span></a>
 											<div className="drop-menu">
 												<div className="one-third">
 													<div className="cat-title">
 														Laptop And Computer
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
-															<a href="#" title="">Laptops, Desktops & Monitors</a>
+															<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 														</li>
 														<li>
-															<a href="#" title="">Hard Drives & Memory Cards</a>
+															<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 														</li>
 														<li>
-															<a href="#" title="">Printers & Ink</a>
+															<a href="#" title="">Printers &amp; Ink</a>
 														</li>
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
 															<a href="#" title="">Computer Accessories</a>
@@ -159,17 +160,17 @@ const BottomHeader = () => {
 												</div>
 												<div className="one-third">
 													<div className="cat-title">
-														Audio & Video
+														Audio &amp; Video
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Headphones & Speakers</a>
+															<a href="#" title="">Headphones &amp; Speakers</a>
 														</li>
 														<li>
 															<a href="#" title="">Home Entertainment Systems</a>
 														</li>
 														<li>
-															<a href="#" title="">MP3 & Media Players</a>
+															<a href="#" title="">MP3 &amp; Media Players</a>
 														</li>
 													</ul>
 													<div className="show">
@@ -177,7 +178,7 @@ const BottomHeader = () => {
 													</div>
 												</div>
 												<div className="one-third">
-													<ul className="banner">
+													<ul className="banner" style="display: block;">
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
@@ -195,7 +196,7 @@ const BottomHeader = () => {
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
-																	TV & Audio
+																	TV &amp; Audio
 																</div>
 																<div className="more-link">
 																	<a href="#" title="">Shop Now <img src="images/icons/right-2.png" alt=""/></a>
@@ -232,27 +233,27 @@ const BottomHeader = () => {
 												<span className="menu-title">
 													Home Devices
 												</span>
-											</a>
+											<span className="btn-dropdown"></span></a>
 											<div className="drop-menu">
 												<div className="one-third">
 													<div className="cat-title">
 														Laptop And Computer
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
-															<a href="#" title="">Laptops, Desktops & Monitors</a>
+															<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 														</li>
 														<li>
-															<a href="#" title="">Hard Drives & Memory Cards</a>
+															<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 														</li>
 														<li>
-															<a href="#" title="">Printers & Ink</a>
+															<a href="#" title="">Printers &amp; Ink</a>
 														</li>
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
 															<a href="#" title="">Computer Accessories</a>
@@ -267,17 +268,17 @@ const BottomHeader = () => {
 												</div>
 												<div className="one-third">
 													<div className="cat-title">
-														Audio & Video
+														Audio &amp; Video
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Headphones & Speakers</a>
+															<a href="#" title="">Headphones &amp; Speakers</a>
 														</li>
 														<li>
 															<a href="#" title="">Home Entertainment Systems</a>
 														</li>
 														<li>
-															<a href="#" title="">MP3 & Media Players</a>
+															<a href="#" title="">MP3 &amp; Media Players</a>
 														</li>
 													</ul>
 													<div className="show">
@@ -285,7 +286,7 @@ const BottomHeader = () => {
 													</div>
 												</div>
 												<div className="one-third">
-													<ul className="banner">
+													<ul className="banner" style="display: block;">
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
@@ -303,7 +304,7 @@ const BottomHeader = () => {
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
-																	TV & Audio
+																	TV &amp; Audio
 																</div>
 																<div className="more-link">
 																	<a href="#" title="">Shop Now <img src="images/icons/right-2.png" alt=""/></a>
@@ -348,7 +349,7 @@ const BottomHeader = () => {
 													<img src="images/icons/menu/05.png" alt=""/>
 												</span>
 												<span className="menu-title">
-													TV & Audio
+													TV &amp; Audio
 												</span>
 											</a>
 										</li>
@@ -358,7 +359,7 @@ const BottomHeader = () => {
 													<img src="images/icons/menu/06.png" alt=""/>
 												</span>
 												<span className="menu-title">
-													Sports & Fitness
+													Sports &amp; Fitness
 												</span>
 											</a>
 										</li>
@@ -368,29 +369,29 @@ const BottomHeader = () => {
 													<img src="images/icons/menu/07.png" alt=""/>
 												</span>
 												<span className="menu-title">
-													Games & Toys
+													Games &amp; Toys
 												</span>
-											</a>
+											<span className="btn-dropdown"></span></a>
 											<div className="drop-menu">
 												<div className="one-third">
 													<div className="cat-title">
 														Laptop And Computer
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
-															<a href="#" title="">Laptops, Desktops & Monitors</a>
+															<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 														</li>
 														<li>
-															<a href="#" title="">Hard Drives & Memory Cards</a>
+															<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 														</li>
 														<li>
-															<a href="#" title="">Printers & Ink</a>
+															<a href="#" title="">Printers &amp; Ink</a>
 														</li>
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
 															<a href="#" title="">Computer Accessories</a>
@@ -405,17 +406,17 @@ const BottomHeader = () => {
 												</div>
 												<div className="one-third">
 													<div className="cat-title">
-														Audio & Video
+														Audio &amp; Video
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Headphones & Speakers</a>
+															<a href="#" title="">Headphones &amp; Speakers</a>
 														</li>
 														<li>
 															<a href="#" title="">Home Entertainment Systems</a>
 														</li>
 														<li>
-															<a href="#" title="">MP3 & Media Players</a>
+															<a href="#" title="">MP3 &amp; Media Players</a>
 														</li>
 													</ul>
 													<div className="show">
@@ -423,7 +424,7 @@ const BottomHeader = () => {
 													</div>
 												</div>
 												<div className="one-third">
-													<ul className="banner">
+													<ul className="banner" style="display: block;">
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
@@ -441,7 +442,7 @@ const BottomHeader = () => {
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
-																	TV & Audio
+																	TV &amp; Audio
 																</div>
 																<div className="more-link">
 																	<a href="#" title="">Shop Now <img src="images/icons/right-2.png" alt=""/></a>
@@ -488,27 +489,27 @@ const BottomHeader = () => {
 												<span className="menu-title">
 													Accessories
 												</span>
-											</a>
+											<span className="btn-dropdown"></span></a>
 											<div className="drop-menu">
 												<div className="one-third">
 													<div className="cat-title">
 														Laptop And Computer
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
-															<a href="#" title="">Laptops, Desktops & Monitors</a>
+															<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 														</li>
 														<li>
-															<a href="#" title="">Hard Drives & Memory Cards</a>
+															<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 														</li>
 														<li>
-															<a href="#" title="">Printers & Ink</a>
+															<a href="#" title="">Printers &amp; Ink</a>
 														</li>
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
 															<a href="#" title="">Computer Accessories</a>
@@ -523,17 +524,17 @@ const BottomHeader = () => {
 												</div>
 												<div className="one-third">
 													<div className="cat-title">
-														Audio & Video
+														Audio &amp; Video
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Headphones & Speakers</a>
+															<a href="#" title="">Headphones &amp; Speakers</a>
 														</li>
 														<li>
 															<a href="#" title="">Home Entertainment Systems</a>
 														</li>
 														<li>
-															<a href="#" title="">MP3 & Media Players</a>
+															<a href="#" title="">MP3 &amp; Media Players</a>
 														</li>
 													</ul>
 													<div className="show">
@@ -541,7 +542,7 @@ const BottomHeader = () => {
 													</div>
 												</div>
 												<div className="one-third">
-													<ul className="banner">
+													<ul className="banner" style="display: block;">
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
@@ -559,7 +560,7 @@ const BottomHeader = () => {
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
-																	TV & Audio
+																	TV &amp; Audio
 																</div>
 																<div className="more-link">
 																	<a href="#" title="">Shop Now <img src="images/icons/right-2.png" alt=""/></a>
@@ -596,27 +597,27 @@ const BottomHeader = () => {
 												<span className="menu-title">
 													Security
 												</span>
-											</a>
+											<span className="btn-dropdown"></span></a>
 											<div className="drop-menu">
 												<div className="one-third">
 													<div className="cat-title">
 														Laptop And Computer
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
-															<a href="#" title="">Laptops, Desktops & Monitors</a>
+															<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 														</li>
 														<li>
-															<a href="#" title="">Hard Drives & Memory Cards</a>
+															<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 														</li>
 														<li>
-															<a href="#" title="">Printers & Ink</a>
+															<a href="#" title="">Printers &amp; Ink</a>
 														</li>
 														<li>
-															<a href="#" title="">Networking & Internet Devices</a>
+															<a href="#" title="">Networking &amp; Internet Devices</a>
 														</li>
 														<li>
 															<a href="#" title="">Computer Accessories</a>
@@ -631,17 +632,17 @@ const BottomHeader = () => {
 												</div>
 												<div className="one-third">
 													<div className="cat-title">
-														Audio & Video
+														Audio &amp; Video
 													</div>
-													<ul>
+													<ul style="display: block;">
 														<li>
-															<a href="#" title="">Headphones & Speakers</a>
+															<a href="#" title="">Headphones &amp; Speakers</a>
 														</li>
 														<li>
 															<a href="#" title="">Home Entertainment Systems</a>
 														</li>
 														<li>
-															<a href="#" title="">MP3 & Media Players</a>
+															<a href="#" title="">MP3 &amp; Media Players</a>
 														</li>
 													</ul>
 													<div className="show">
@@ -649,7 +650,7 @@ const BottomHeader = () => {
 													</div>
 												</div>
 												<div className="one-third">
-													<ul className="banner">
+													<ul className="banner" style="display: block;">
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
@@ -667,7 +668,7 @@ const BottomHeader = () => {
 														<li>
 															<div className="banner-text">
 																<div className="banner-title">
-																	TV & Audio
+																	TV &amp; Audio
 																</div>
 																<div className="more-link">
 																	<a href="#" title="">Shop Now <img src="images/icons/right-2.png" alt=""/></a>
@@ -694,23 +695,22 @@ const BottomHeader = () => {
 														</li>
 													</ul>	
 												</div>
-											</div>{/*/.drop-menu*/}
+											</div>{/**drop-menu */}
 										</li>
-									</ul>{/**col-md-3 col-2 */}
-								</div>
-							</div>{/**col-md-3 col-2 */}
+									</ul>{/**menu */}
+								</div></div>{/**col-md-3 col-2  */}
 							<div className="col-md-9 col-10">
 								<div className="top-search style1">
-									<form action="#" method="get" className="form-search" acceptCharset="utf-8">
+									<form action="#" method="get" className="form-search" accept-charset="utf-8">
 										<div className="cat-wrap cat-wrap-v1">
 											<select name="category">
-												<option hidden value="">All Category</option>
-												<option hidden value="">Cameras</option>
-												<option hidden value="">Computer</option>
-												<option hidden value="">Laptops</option>
-											</select>
+											<option hidden="" value="">All Category</option>
+											<option hidden="" value="">Cameras</option>
+											<option hidden="" value="">Computer</option>
+											<option hidden="" value="">Laptops</option>
+										</select>
 											<span><i className="fa fa-angle-down" aria-hidden="true"></i></span>
-											<div className="all-categories">
+											<div className="all-categories mCustomScrollbar _mCS_1"><div id="mCSB_1" className="mCustomScrollBox mCS-light-3 mCSB_vertical mCSB_inside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" className="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
 												<div className="cat-list-search">
 													<div className="title">
 														Electronics
@@ -746,8 +746,19 @@ const BottomHeader = () => {
 														<li>Printers</li>
 														<li>Media</li>
 													</ul>
-												</div>{/**.cat-list-search */}
-											</div>{/**all-categories */}
+												</div>{/**cat-list-search */}
+											</div><div id="mCSB_1_scrollbar_vertical" className="mCSB_scrollTools mCSB_1_scrollbar mCS-light-3 mCSB_scrollTools_vertical" style="display: block;">
+												<div className="mCSB_draggerContainer">
+													<div id="mCSB_1_dragger_vertical" className="mCSB_dragger" style="position: absolute; min-height: 30px; display: block; height: 171px; max-height: 253px; top: 0px;">
+												<div className="mCSB_dragger_bar" style="line-height: 30px;">
+													</div>
+													</div>
+													<div className="mCSB_draggerRail">
+														</div>
+															</div>
+																</div>
+																	</div>
+																		</div>{/**all-categories */}
 										</div>{/**cat-wrap */}
 										<div className="box-search">
 											<input type="text" name="search" placeholder="Search what you looking for ?"/>
@@ -860,27 +871,27 @@ const BottomHeader = () => {
 															</div>
 														</li>
 													</ul>
-												</div>{/**box-suggestions */}
-												<div className="box-cat">
+												</div>{/**box-suggestion */}
+												<div className="box-cat mCustomScrollbar _mCS_2 mCS_no_scrollbar"><div id="mCSB_2" className="mCustomScrollBox mCS-light-3 mCSB_vertical mCSB_inside" tabindex="0" style="max-height: none;"><div id="mCSB_2_container" className="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
 													<div className="cat-list-search">
 														<div className="title">
 															Categories
 														</div>
 														<ul>
 															<li>
-																<a href="#">Networking & Internet Devices</a>
+																<a href="#">Networking &amp; Internet Devices</a>
 															</li>
 															<li>
-																<a href="#">Laptops, Desktops & Monitors</a>
+																<a href="#">Laptops, Desktops &amp; Monitors</a>
 															</li>
 															<li>
-																<a href="#">Hard Drives & Memory Cards</a>
+																<a href="#">Hard Drives &amp; Memory Cards</a>
 															</li>
 															<li>
-																<a href="#">Printers & Ink</a>
+																<a href="#">Printers &amp; Ink</a>
 															</li>
 															<li>
-																<a href="#">Networking & Internet Devices</a>
+																<a href="#">Networking &amp; Internet Devices</a>
 															</li>
 															<li>
 																<a href="#">Computer Accessories</a>
@@ -890,14 +901,24 @@ const BottomHeader = () => {
 															</li>
 														</ul>
 													</div>{/**cat-list-search */}
-												</div>{/**box-cat */}
+												</div><div id="mCSB_2_scrollbar_vertical" className="mCSB_scrollTools mCSB_2_scrollbar mCS-light-3 mCSB_scrollTools_vertical" style="display: none;"><div className="mCSB_draggerContainer">
+													<div id="mCSB_2_dragger_vertical" className="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px; display: block; max-height: 491px;">
+														<div className="mCSB_dragger_bar" style="line-height: 30px;">
+															</div>
+															</div>
+															<div className="mCSB_draggerRail">
+																</div>
+																 </div>
+																  </div>
+																  </div>
+																  </div>{/**box-cat */}
 											</div>{/**search-suggestion */}
-										</div>{/**box-search */}
+										</div>{/**box-seah */}
 									</form>{/**form-search */}
 								</div>{/**top-search */}
 								<span className="show-search">
 									<button></button>
-								</span>{/**show-search */}
+								</span>{/**show-sear */}
 								<div className="box-cart style1">
 									<div className="inner-box">
 										<ul className="menu-compare-wishlist">
@@ -911,7 +932,7 @@ const BottomHeader = () => {
 													<img src="images/icons/wishlist-2.png" alt=""/>
 												</a>
 											</li>
-										</ul>{/**.menu-compare-wishlist */}
+										</ul>{/**menu-compare-wishlist */}
 									</div>{/**inner-box */}
 									<div className="inner-box">
 										<a href="#" title="">
@@ -931,7 +952,7 @@ const BottomHeader = () => {
 													</div>
 													<div className="info-product">
 														<div className="name">
-															Samsung - Galaxy S6 4G LTE <br />with 32GB Memory Cell Phone
+															Samsung - Galaxy S6 4G LTE <br/>with 32GB Memory Cell Phone
 														</div>
 														<div className="price">
 															<span>1 x</span>
@@ -966,14 +987,14 @@ const BottomHeader = () => {
 												<a href="shop-cart.html" className="view-cart" title="">View Cart</a>
 												<a href="shop-checkout.html" className="check-out" title="">Checkout</a>
 											</div>
-										</div>{/**dropdown-box */}
+										</div>{/**dropdow-box */}
 									</div>{/**inner-box */}
-								</div>{/**box-card */}
+								</div>{/**box-cart */}
 							</div>{/**col-md-9 col-10 */}
 						</div>{/**row */}
 					</div>{/**container */}
 				</div>{/**header-bottom */}
-        </>
+	</>
     )
 }
 

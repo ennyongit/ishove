@@ -9,9 +9,10 @@ const MiddleHeader = () => {
 									<a href="index.html" title="">
 										<img src="images/logos/logo.png" alt=""/>
 									</a>
-								</div>{/*/#logo */}
+								</div>{/**logo */}
 								<div className="nav-wrap">
-									<div id="mainnav" className="mainnav style1">
+									{/**main-nav */}
+								<div id="mainnav" className="mainnav style1">
 										<ul className="menu">
 											<li className="column-1">
 												<a href="#" title="">Home</a>
@@ -81,13 +82,13 @@ const MiddleHeader = () => {
 														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Home Theater Systems</a>
 													</li>
 													<li>
-														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Receivers & Amplifiers</a>
+														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Receivers &amp; Amplifiers</a>
 													</li>
 													<li>
 														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Speakers</a>
 													</li>
 													<li>
-														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>CD Players & Turntables</a>
+														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>CD Players &amp; Turntables</a>
 													</li>
 													<li>
 														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>High-Resolution Audio</a>
@@ -95,14 +96,14 @@ const MiddleHeader = () => {
 													<li>
 														<a href="#" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>4K Ultra HD TVs</a>
 													</li>
-												</ul>{/*submenu*/ }
-											</li>{/*column-1*/}
-											<li>
+												</ul>{/**sub-menu */}
+											</li>{/**column-1 */}
+											<li className="has-mega-menu">
 												<a href="#" title="">Electronic</a>
 												<div className="submenu">
 													<div className="row">
 														<div className="col-md-3">
-															<h3 className="cat-title">Accessories</h3>
+															<h3 className="cat-title">Accessories<span className=""></span></h3>
 															<ul>
 																<li>
 																	<a href="#" title="">Electronics</a>
@@ -129,24 +130,24 @@ const MiddleHeader = () => {
 															<div className="show">
 																<a href="#" title="">Shop All</a>
 															</div>
-														</div>{/*col-md-3*/}
+														</div>{/**col-md-3 */}
 														<div className="col-md-3">
-															<h3 className="cat-title">Laptop And Computer</h3>
+															<h3 className="cat-title">Laptop And Computer<span className=""></span></h3>
 															<ul>
 																<li>
-																	<a href="#" title="">Networking & Internet Devices</a>
+																	<a href="#" title="">Networking &amp; Internet Devices</a>
 																</li>
 																<li>
-																	<a href="#" title="">Laptops, Desktops & Monitors</a>
+																	<a href="#" title="">Laptops, Desktops &amp; Monitors</a>
 																</li>
 																<li>
-																	<a href="#" title="">Hard Drives & Memory Cards</a>
+																	<a href="#" title="">Hard Drives &amp; Memory Cards</a>
 																</li>
 																<li>
-																	<a href="#" title="">Printers & Ink</a>
+																	<a href="#" title="">Printers &amp; Ink</a>
 																</li>
 																<li>
-																	<a href="#" title="">Networking & Internet Devices</a>
+																	<a href="#" title="">Networking &amp; Internet Devices</a>
 																</li>
 																<li>
 																	<a href="#" title="">Computer Accessories</a>
@@ -158,18 +159,18 @@ const MiddleHeader = () => {
 															<div className="show">
 																<a href="#" title="">Shop All</a>
 															</div>
-														</div>{/*col-md-3*/}
+														</div>{/**col-md-3 */}
 														<div className="col-md-4">
-															<h3 className="cat-title">Audio & Video</h3>
+															<h3 className="cat-title">Audio &amp; Video<span className=""></span></h3>
 															<ul>
 																<li>
-																	<a href="#" title="">Headphones & Speakers</a>
+																	<a href="#" title="">Headphones &amp; Speakers</a>
 																</li>
 																<li>
 																	<a href="#" title="">Home Entertainment Systems</a>
 																</li>
 																<li>
-																	<a href="#" title="">MP3 & Media Players</a>
+																	<a href="#" title="">MP3 &amp; Media Players</a>
 																</li>
 															</ul>
 															<div className="show">
@@ -177,19 +178,19 @@ const MiddleHeader = () => {
 															</div>
 														</div>{/**col-md-4 */}
 														<div className="col-md-2">
-															<h3 className="cat-title">Home Audio</h3>
+															<h3 className="cat-title">Home Audio<span className=""></span></h3>
 															<ul>
 																<li>
 																	<a href="#" title="">Home Theater Systems</a>
 																</li>
 																<li>
-																	<a href="#" title="">Receivers & Amplifiers</a>
+																	<a href="#" title="">Receivers &amp; Amplifiers</a>
 																</li>
 																<li>
 																	<a href="#" title="">Speakers</a>
 																</li>
 																<li>
-																	<a href="#" title="">CD Players & Turntables</a>
+																	<a href="#" title="">CD Players &amp; Turntables</a>
 																</li>
 																<li>
 																	<a href="#" title="">High-Resolution Audio</a>
@@ -253,7 +254,7 @@ const MiddleHeader = () => {
 														<a href="order-tracking.html" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Order Tracking</a>
 													</li>
 													<li>
-													<a href="term-condition.html" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Terms & Conditions</a>
+													<a href="term-condition.html" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Terms &amp; Conditions</a>
 												</li>
 												<li>
 													<a href="single-product.html" title=""><i className="fa fa-angle-right" aria-hidden="true"></i>Single Product 01</a>
@@ -307,21 +308,20 @@ const MiddleHeader = () => {
 												</ul>
 											</li>
 										</ul>{/**menu */}
-									</div>{/**mainnav */}
-								</div>{/**nav-wrap */}
+									</div></div>{/**nav-wrap */}
 								<div className="btn-menu style1">
 		                            <span></span>
-		                        </div>{/**mobile button */}
+		                        </div>{/**mobile-menu-button */}
 								<ul className="flat-infomation style1">
 									<li className="phone">
 										<img src="images/icons/call-3.png" alt=""/>
 										Call Us: <a href="#" title="">(888) 1234 56789</a>
 									</li>
-								</ul>{/** flat-information */}
+								</ul>{/**flat-information*/}
 							</div>{/**col-md-12 */}
-						</div>{/**row */}
-					</div>{/**container */}
-				</div>{/**header-middle */}
+						</div>{/**row*/}
+					</div>{/**container*/}
+				</div>{/**header-middle*/}
         </>
     )
 }

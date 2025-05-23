@@ -1,6 +1,6 @@
-import TopHeader from "./TopHeader";
-import MiddleHeader from "./MiddleHeader";
-import BottomHeader from "./BottomHeader";
+import TopHeader from "./top/TopHeader";
+import MiddleHeader from "./middle/MiddleHeader";
+import BottomHeader from "./bottom/BottomHeader";
 
 const Header = () => {
     return(
